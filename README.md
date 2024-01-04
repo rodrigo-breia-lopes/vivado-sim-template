@@ -1,6 +1,6 @@
 # Vivado simulation through the command line: a template.
 
-This template provides a way of designing and testbench using Vivado's standalone _xsim_ simulator. Here are the make commands:
+This template provides a simple design-testbench repo, to be used with Vivado's standalone _xsim_ simulator. Here's how it's used:
 
 Parse:
 ``` 
