@@ -1,7 +1,5 @@
-#./build/
-#./logs/
-./sim.dir
-./nvim
+sim.dir/
+.nvim/
 
 webtalk*
 *.jou
