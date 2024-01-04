@@ -4,7 +4,8 @@ PARSER_FLAGS = -sv
 
 # Elaborator:
 ELABORATOR = xelab
-ELAB_FLAGS = --timescale 10ns/10ps --override_timeunit
+TIMESCALE = 10ns/10ps
+ELAB_FLAGS = --timescale $(TIMESCALE) --override_timeunit
 
 # Simulator
 SIMULATOR = xsim
