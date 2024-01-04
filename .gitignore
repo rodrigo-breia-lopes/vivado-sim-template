@@ -1,0 +1,13 @@
+(wildcard webtalk* *.jou *.log xvlog.* xelab.* xsim.* *.jou *.wdb $(LOGS_DIR)/*)
+./build/
+./logs/
+./sim.dir
+
+webtalk*
+*.jou
+*.log
+*.wdb
+xvlog.*
+xelab.*
+xsim.*
+*.vcd
